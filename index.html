@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Alfred2-workflow-maven by yisiqi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Alfred2-workflow-maven</h1>
+        <p>Alfred workflow for seaching maven artifacts in maven central repository.</p>
+        <p class="view"><a href="https://github.com/yisiqi/alfred2-workflow-maven">View the Project on GitHub <small>yisiqi/alfred2-workflow-maven</small></a></p>
+        <ul>
+          <li><a href="https://github.com/yisiqi/alfred2-workflow-maven/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/yisiqi/alfred2-workflow-maven/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/yisiqi/alfred2-workflow-maven">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="alfred2-workflow-maven" class="anchor" href="#alfred2-workflow-maven" aria-hidden="true"><span class="octicon octicon-link"></span></a>alfred2-workflow-maven</h1>
+
+<p>Alfred workflow for seaching maven artifacts in maven central repository.</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<ul>
+<li><strong>Fuzzy search</strong></li>
+</ul>
+
+<pre><code>    mcr spring
+</code></pre>
+
+<ul>
+<li><strong>Precise search</strong></li>
+</ul>
+
+<pre><code>    //Search with GourpID
+    mcr g:org.apache.tomcat
+
+    //Search with ArtifactID
+    mcr a:spring-security-core
+
+    //
+    mcr g:org.hibernate a:hibernate-core
+
+</code></pre>
+
+<ul>
+<li><strong>Search more versions</strong></li>
+</ul>
+
+<p>Once you select an item. Press <code>option</code>+<code>enter</code> will list more versions of current artifact.</p>
+
+<ul>
+<li><strong>Work with Editor</strong></li>
+</ul>
+
+<p>Open a maven pom file with any editor. Wake up alfred to search and select an item with this workflow. Then press <code>enter</code>, and it will paste as maven dependency description automatically. If you prefer <strong><em>gradle</em></strong>. Use the combo-key <code>command</code>+<code>enter</code> to instead.</p>
+
+<p>Sometimes, we may wanna paste as maven plugin description. The combo-key <code>ctrl</code>+<code>enter</code> will be helpful.</p>
+
+<h3>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h3>
+
+<ol>
+<li>Artifact browse <a href="http://youtu.be/vkHHqqk5jO4">youtbue video</a> / <a href="http://v.youku.com/v_show/id_XODQ4MDU3Nzc2.html">youku for china</a>
+</li>
+<li>Work with IntelliJ IDEA <a href="http://youtu.be/E-O1dEwyybE">youtbue video</a> / <a href="http://v.youku.com/v_show/id_XODQ4MDU4Njky.html">youku for china</a>
+</li>
+</ol>
+
+<h3>
+<a id="important" class="anchor" href="#important" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important</h3>
+
+<ol>
+<li>Do NOT change the name of action <strong><em><code>_mcr-more</code></em></strong>. Unless you already read all this source code.</li>
+<li>If your network can NOT access the web page of <code>http://search.maven.org/</code>......
+Oops, the rest of conten has not been audited X-D</li>
+</ol>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/yisiqi">yisiqi</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
