@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.github.yisiqi.simcr</string>
+	<key>category</key>
+	<string>Dev</string>
 	<key>connections</key>
 	<dict>
 		<key>16ADEF8B-BA7D-443F-94A9-C422B6CCDA41</key>
@@ -134,31 +136,6 @@ alfred.show(cmd)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>F33039EE-E796-4DA9-BB65-E66839DB293A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -236,6 +213,31 @@ alfred.write(xml)</string>
 			<string>863B2A89-6210-4F52-8155-262472C5ACBD</string>
 			<key>version</key>
 			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F33039EE-E796-4DA9-BB65-E66839DB293A</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -469,7 +471,7 @@ alfred.write(xml)</string>
 		<key>F33039EE-E796-4DA9-BB65-E66839DB293A</key>
 		<dict>
 			<key>ypos</key>
-			<real>40</real>
+			<real>90</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
