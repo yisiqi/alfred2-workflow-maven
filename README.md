@@ -38,8 +38,8 @@ Sometimes, we may wanna paste as maven plugin description. The combo-key `ctrl`+
 
 ### Demo
 
-1. Artifact browse [youtbue video](http://youtu.be/vkHHqqk5jO4) / [youku for china](http://)
-2. Work with IntelliJ IDEA [youtbue video](http://youtu.be/E-O1dEwyybE) / [youku for china](http://)
+1. Artifact browse [youtbue video](http://youtu.be/vkHHqqk5jO4) / [youku for china](http://v.youku.com/v_show/id_XODQ4MDU3Nzc2.html)
+2. Work with IntelliJ IDEA [youtbue video](http://youtu.be/E-O1dEwyybE) / [youku for china](http://v.youku.com/v_show/id_XODQ4MDU4Njky.html)
 
 ### Important
 
