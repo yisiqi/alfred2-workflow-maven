@@ -1,7 +1,7 @@
 alfred2-workflow-maven
 ======================
 
-Alfred workflow for seaching maven artifacts in maven central repository.
+Alfred workflow for searching maven artifacts in maven central repository.
 
 ### Usage
 
@@ -28,13 +28,13 @@ Alfred workflow for seaching maven artifacts in maven central repository.
 
 * **Search more versions**
 
-Once you select an item. Press `option`+`enter` will list more versions of current artifact.
+Once you select an item. Press `option`+`enter` will list more versions of the current artifact.
 
 * **Work with Editor**
 
 Open a maven pom file with any editor. Wake up alfred to search and select an item with this workflow. Then press `enter`, and it will paste as maven dependency description automatically. If you prefer ***gradle***. Use the combo-key `command`+`enter` to instead.
 
-Sometimes, we may wanna paste as maven plugin description. The combo-key `ctrl`+`enter` will be helpful.
+Sometimes, we may want to paste as maven plugin description. The combo-key `ctrl`+`enter` will be helpful.
 
 ### Demo
 
@@ -45,4 +45,4 @@ Sometimes, we may wanna paste as maven plugin description. The combo-key `ctrl`+
 
 1. Do NOT change the name of action ***`_mcr-more`***. Unless you already read all this source code.
 2. If your network can NOT access the web page of `http://search.maven.org/`......
-Oops, the rest of conten has not been audited X-D
+Oops, the rest of content has not been audited X-D
